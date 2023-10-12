@@ -129,6 +129,11 @@ nano bash.sh
 ```
 
 
+echo -e "\e[38;2;R;G;Bm"
+nano bash.sh
+echo -e "\e[0m"
+
+
 
 
 
