@@ -128,8 +128,9 @@ nano bash.sh
 
 ```
 
+<br>
 
-<code style="color: rgb(255, 0, 0); background-color: rgb(0, 0, 0);">nano bash.sh</code>
+- En el script Bash, carga el archivo CSV llamado "covid_1.csv" desde Google Cloud Storage a una tabla llamada "covid" en el conjunto de datos "dd_landing" en BigQuery. BigQuery determinará automáticamente la estructura de la tabla a partir de los datos en el archivo CSV.
 
 
 
