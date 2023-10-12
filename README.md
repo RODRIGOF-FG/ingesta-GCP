@@ -223,6 +223,10 @@ bash nombre_script.sh
 
 <br>
 
+**Primer ejemplo**
+
+<br>
+
 ```cmd
 
 SELECT SUM(total_cases) AS total_casos_region_desconocida
@@ -245,6 +249,45 @@ WHERE Behavioral_health_region = "unknown";
 - Esta sentencia SQL realizará la suma de los casos totales ("total_cases") que pertenecen a la región con nombre "unknown" en la tabla "covid" dentro del conjunto de datos "dd_landing" en BigQuery. El resultado de la suma se mostrará bajo el alias "total_casos_region_desconocida".
 
 
+
+<br>
+
+
+**Segundo Ejemplo**
+
+
+<br>
+
+
+
+```cmd
+
+SELECT SUM(Total_Cases) AS Total_Casos_Region_Other_Southeast_Northern
+FROM nombre_del_conjunto_de_datos.nombre_de_la_tabla
+WHERE Behavioral_Health_Region = 'Other Southeast Region - Northern';
+
+```
+
+<br>
+
+- Ejecucion:
+
+
+<br>
+
+
+![img_12](gcp_files/gcp12.png)
+
+
+
+<br>
+
+- Esta sentencia SQL realizará la suma de los casos totales ("Total_Cases") que pertenecen a la región "Other Southeast
+Region - Northern" en la tabla de datos específica, que se encuentra en el conjunto de datos también especificado. El
+resultado de esta suma se mostrará con el alias "Total_Casos_Region_Other_Southeast_Northern".
+
+
+<br>
 
 
 
