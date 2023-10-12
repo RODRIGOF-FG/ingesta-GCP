@@ -49,6 +49,7 @@ Asigna un nombre al bucket.
 
 <br>
 
+![img_1](gcp_files/gcp1.png)
 
 
 
