@@ -165,7 +165,7 @@ nano nombre_script.sh
 
 <br>
 
-- con el siguiente comnado
+- Una vez creado el script en Bash, ejecútalo para realizar la carga de datos en BigQuery con el siguiente comando:
 
 <br>
 
@@ -176,6 +176,82 @@ bash nombre_script.sh
 ```
 
 <br>
+
+![img_8](gcp_files/gcp8.png)
+
+<br>
+
+### Paso 6
+-----------
+
+<br>
+
+**Verificación en BigQuery**
+
+<br>
+
+- Después de que el proceso haya finalizado, verifica en BigQuery que se haya creado la tabla "covid" en tu conjunto de datos "dd_landing".
+
+<br>
+
+![img_9](gcp_files/gcp9.png)
+
+<br>
+
+### Paso 7
+-----------
+
+
+<br>
+
+
+**Consulta de Datos en BigQuery**
+
+<br>
+
+
+- Consulta basica:
+
+<br>
+
+![img_10](gcp_files/gcp10.png)
+
+
+<br>
+
+- Consultas en BigQuery para analizar los datos. Por ejemplo, utiliza la sentencia SQL para filtrar y contar casos por región:
+
+<br>
+
+```cmd
+
+SELECT SUM(total_cases) AS total_casos_region_desconocida
+FROM dd_landing.covid
+WHERE Behavioral_health_region = "unknown";
+
+```
+
+<br>
+
+- Ejecucion:
+
+<br>
+
+![img_11](gcp_files/gcp11.png)
+
+
+<br>
+
+- Esta sentencia SQL realizará la suma de los casos totales ("total_cases") que pertenecen a la región con nombre "unknown" en la tabla "covid" dentro del conjunto de datos "dd_landing" en BigQuery. El resultado de la suma se mostrará bajo el alias "total_casos_region_desconocida".
+
+
+
+
+
+
+
+
+
 
 
 
