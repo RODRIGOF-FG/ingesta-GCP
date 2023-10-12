@@ -125,10 +125,9 @@ Selecciona "Buckets".
 
 
 ```cmd
-nano bash.sh
+nano nombre_script.sh
 
 ```
-![img_7](gcp_files/gcp7.png)
 
 <br>
 
@@ -157,10 +156,27 @@ nano bash.sh
 
 <br>
 
-### Paso 7
+### Paso 5
 -----------
 
 <br>
+
+**Ejecución del Script Bash**
+
+<br>
+
+- con el siguiente comnado
+
+<br>
+
+```cmd
+
+bash nombre_script.sh
+
+```
+
+<br>
+
 
 
 
