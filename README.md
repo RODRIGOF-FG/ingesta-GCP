@@ -129,13 +129,7 @@ nano bash.sh
 ```
 
 
-echo -e "\e[38;2;R;G;Bm"
-nano bash.sh
-echo -e "\e[0m"
-
-
-
-
+<code style="color: rgb(255, 0, 0); background-color: rgb(0, 0, 0);">nano bash.sh</code>
 
 
 
