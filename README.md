@@ -124,19 +124,31 @@ Selecciona "Buckets".
 <br>
 
 
-![img_7](gcp_files/gcp7.png)
-
-<br>
-
-
-
-
-
-
 ```cmd
 nano bash.sh
 
 ```
+![img_7](gcp_files/gcp7.png)
+
+<br>
+
+- Luego escribimos el siguiente sccript
+
+<br>
+
+```cmd
+  bq load \
+    --autodetect \
+    --source_format=CSV \
+    dd_landing.covid \
+    gs://raw-gcp-1/covid_1.csv
+
+```
+
+
+<br>
+
+![img_7](gcp_files/gcp7.png)
 
 <br>
 
