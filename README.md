@@ -51,7 +51,9 @@ Asigna un nombre al bucket.
 
 ![img_1](gcp_files/gcp1.png)
 
+![img_2](gcp_files/gcp2.png)
 
+![img_3](gcp_files/gcp3.png)
 
 
 
