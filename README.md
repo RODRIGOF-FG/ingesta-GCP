@@ -60,9 +60,43 @@ Selecciona "Buckets".
 
 
 
+### Paso 2
+-----------
+
+<br>
 
 
+**Carga de Archivo CSV en el Bucket**
 
+
+<br>
+
+- Carga el archivo CSV en el bucket que acabas de crear.
+
+<br>
+
+![img_4](gcp_files/gcp4.png)
+
+
+<br>
+
+
+### Paso 2
+-----------
+
+
+<br>
+
+**Creación de un Conjunto de Datos en BigQuery**
+
+<br>
+
+
+- Accede a BigQuery en GCP.
+
+<br>
+
+![img_5](gcp_files/gcp5.png)
 
 
 
