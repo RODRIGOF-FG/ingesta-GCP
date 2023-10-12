@@ -81,7 +81,7 @@ Selecciona "Buckets".
 <br>
 
 
-### Paso 2
+### Paso 3
 -----------
 
 
@@ -97,6 +97,38 @@ Selecciona "Buckets".
 <br>
 
 ![img_5](gcp_files/gcp5.png)
+
+
+<br>
+
+- Crea un conjunto de datos llamado "dd_landing". Opcionalmente, habilita el vencimiento de la tabla (en este caso, configurado a dos días).
+
+<br>
+
+![img_6](gcp_files/gcp6.png)
+
+
+<br>
+
+### Paso 4
+-----------
+
+<br>
+
+**Creación de un Script Bash**
+
+<br>
+
+- Abre la consola de comandos en GCP y crea un archivo de script Bash llamado "bash.sh" utilizando el comando:
+
+<br>
+
+```cmd
+nano bash.sh
+
+```
+
+
 
 
 
