@@ -80,8 +80,13 @@ Selecciona "Buckets".
 ![img_4](gcp_files/gcp4.png)
 
 
+
+
 <br>
 
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
+
+<br>
 
 ### Paso 3
 -----------
@@ -109,6 +114,11 @@ Selecciona "Buckets".
 
 ![img_6](gcp_files/gcp6.png)
 
+
+
+<br>
+
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
 
 <br>
 
@@ -156,7 +166,14 @@ nano nombre_script.sh
 - En el script Bash, carga el archivo CSV llamado "covid_1.csv" desde Google Cloud Storage a una tabla llamada "covid" en el conjunto de datos "dd_landing" en BigQuery. BigQuery determinará automáticamente la estructura de la tabla a partir de los datos en el archivo CSV.
 
 
+
+
 <br>
+
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
+
+<br>
+
 
 ### Paso 5
 -----------
@@ -183,6 +200,11 @@ bash nombre_script.sh
 
 <br>
 
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
+
+<br>
+
+
 ### Paso 6
 -----------
 
@@ -197,6 +219,10 @@ bash nombre_script.sh
 <br>
 
 ![img_9](gcp_files/gcp9.png)
+
+<br>
+
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
 
 <br>
 
@@ -289,12 +315,15 @@ Region - Northern" en la tabla de datos específica, que se encuentra en el conj
 resultado de esta suma se mostrará con el alias "Total_Casos_Region_Other_Southeast_Northern".
 
 
+
+
+
+
 <br>
 
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
 
-
-
-
+<br>
 
 
 
