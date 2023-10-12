@@ -123,6 +123,16 @@ Selecciona "Buckets".
 
 <br>
 
+
+![img_7](gcp_files/gcp7.png)
+
+<br>
+
+
+
+
+
+
 ```cmd
 nano bash.sh
 
@@ -132,6 +142,13 @@ nano bash.sh
 
 - En el script Bash, carga el archivo CSV llamado "covid_1.csv" desde Google Cloud Storage a una tabla llamada "covid" en el conjunto de datos "dd_landing" en BigQuery. BigQuery determinará automáticamente la estructura de la tabla a partir de los datos en el archivo CSV.
 
+
+<br>
+
+### Paso 7
+-----------
+
+<br>
 
 
 
