@@ -56,6 +56,10 @@ Selecciona "Buckets".
 ![img_2](gcp_files/gcp2.png)
 
 
+<br>
+
+
+
 
 
 
