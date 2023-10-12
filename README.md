@@ -1,4 +1,4 @@
- # Ingesta de CSV en BigQuery mediante Bash[(#Inicio)]
+ #Ingesta_de_CSV_en_BigQuery_mediante_Bash
 
 <br>
 
@@ -58,7 +58,7 @@ Selecciona "Buckets".
 
 <br>
 
-[Volver inicio :arrow_up:](#Inicio)
+[Volver inicio :arrow_up:](#Ingesta_de_CSV_en_BigQuery_mediante_Bash)
 
 <br>
 
