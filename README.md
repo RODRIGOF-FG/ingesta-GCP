@@ -40,20 +40,20 @@ posibilidad de realizar consultas SQL para extraer información específica.
 
 <br>
 
-Ingresa al panel principal de Google Cloud Platform (GCP).
-En la barra lateral, busca la opción "Cloud Storage" y despliega las opciones.
+- Ingresa al panel principal de Google Cloud Platform (GCP).
+- En la barra lateral, busca la opción "Cloud Storage" y despliega las opciones.
 Selecciona "Buckets".
-Presiona el botón "Crear" para crear un nuevo bucket.
-Asigna un nombre al bucket.
+- Presiona el botón "Crear" para crear un nuevo bucket.
+- Asigna un nombre al bucket.
 
 
 <br>
 
 ![img_1](gcp_files/gcp1.png)
 
-![img_2](gcp_files/gcp2.png)
-
 ![img_3](gcp_files/gcp3.png)
+
+![img_2](gcp_files/gcp2.png)
 
 
 
